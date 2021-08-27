@@ -1,0 +1,5 @@
+Hóa đơn theo ngày : Mã HD : AH1 - Ngày HD : 22/09/2021 - Tên KH : Bùi Sinh - Mã Phòng : J1 - Đơn giá : 7000.0 - Số ngày : 12 - Thành tiền : 77000.0VNĐ
+Hóa đơn theo giờ : Mã HD : CH1 - Ngày HD : 24/08/2021 - Tên KH : Nguyễn Kiên - Mã Phòng : K1 - Đơn giá : 12000.0 - Số giờ : 3 - Thành tiền : 36000.0VNĐ
+Hóa đơn theo giờ : Mã HD : DH1 - Ngày HD : 24/09/2021 - Tên KH : Nguyễn Bá Hoàng - Mã Phòng : K1 - Đơn giá : 10000.0 - Số giờ : 5 - Thành tiền : 50000.0VNĐ
+Hóa đơn theo giờ : Mã HD : HD1 - Ngày HD : 25/08/2021 - Tên KH : Hoàng Văn Hiếu - Mã Phòng : H1 - Đơn giá : 5000.0 - Số giờ : 2 - Thành tiền : 10000.0VNĐ
+Hóa đơn theo ngày : Mã HD : KH3 - Ngày HD : 01/09/2021 - Tên KH : Nguyễn Viết Cường - Mã Phòng : I1 - Đơn giá : 12000.0 - Số ngày : 4 - Thành tiền : 48000.0VNĐ

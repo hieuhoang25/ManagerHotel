@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="QuanLiKhachSan.Bill" project="BaiTapJavaNC" 
+    file="/BaiTapJavaNC/src/QuanLiKhachSan/Bill.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="662" y="282"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="QuanLiKhachSan.BillForDay" project="BaiTapJavaNC" 
+    file="/BaiTapJavaNC/src/QuanLiKhachSan/BillForDay.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1211" y="121"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="QuanLiKhachSan.BillForTime" project="BaiTapJavaNC" 
+    file="/BaiTapJavaNC/src/QuanLiKhachSan/BillForTime.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1204" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="QuanLiKhachSan.FileFactory" project="BaiTapJavaNC" 
+    file="/BaiTapJavaNC/src/QuanLiKhachSan/FileFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="194" y="707"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="QuanLiKhachSan.Manageable" project="BaiTapJavaNC" 
+    file="/BaiTapJavaNC/src/QuanLiKhachSan/Manageable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="198" y="116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="QuanLiKhachSan.Manager" project="BaiTapJavaNC" 
+    file="/BaiTapJavaNC/src/QuanLiKhachSan/Manager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="191" y="466"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="7">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="8" name="listBill"/>      
+      <multiplicity id="9" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="10">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
